@@ -4,7 +4,7 @@ import com.sun.istack.NotNull;
 
 import javax.persistence.*;
 
-@Entity(name ="users")
+@Entity(name = "users")
 @Table
 public class User {
     @Id
@@ -67,10 +67,10 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", age=" + age +
-                '}';
+               "id=" + id +
+               ", name='" + name + '\'' +
+               ", lastName='" + lastName + '\'' +
+               ", age=" + age +
+               '}';
     }
 }

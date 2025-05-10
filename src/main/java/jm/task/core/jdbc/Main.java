@@ -11,7 +11,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        UserService userService= new UserServiceImpl();
+        UserService userService = new UserServiceImpl();
 
         userService.createUsersTable();
         System.out.println("-------");
@@ -23,7 +23,7 @@ public class Main {
         System.out.println("-------");
 
         List<User> users = userService.getAllUsers();
-        for(User user : users){
+        for (User user : users) {
             System.out.println(user);
         }
         System.out.println("-------");
@@ -39,5 +39,5 @@ public class Main {
     }
 }
 
-        // реализуйте алгоритм здесь
+// реализуйте алгоритм здесь
 
